@@ -8,6 +8,7 @@ class Shoe
     if BRANDS.size <= 3
       @brand = brand
       BRANDS << brand
+    end
   end
 
   def cobble
