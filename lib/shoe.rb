@@ -7,6 +7,7 @@ class Shoe
   def initialize(brand)
       @brand = brand
       BRANDS << brand
+      remove_const[4]
     end
   end
 
