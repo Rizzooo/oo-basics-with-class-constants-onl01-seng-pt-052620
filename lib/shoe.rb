@@ -5,7 +5,6 @@ class Shoe
   BRANDS = []
 
   def initialize(brand)
-    if BRANDS.size <= 3
       @brand = brand
       BRANDS << brand
     end
