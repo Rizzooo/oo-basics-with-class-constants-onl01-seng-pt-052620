@@ -7,10 +7,9 @@ class Shoe
   def initialize(brand)
       @brand = brand
       BRANDS << brand
-      remove_const[4]
     end
   end
-
+  
   def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"
