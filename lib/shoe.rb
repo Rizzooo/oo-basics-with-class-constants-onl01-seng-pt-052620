@@ -5,8 +5,9 @@ class Shoe
   BRANDS = []
 
   def initialize(brand)
-    @brand = brand
-    BRANDS << brand
+    if BRANDS.size <= 3
+      @brand = brand
+      BRANDS << brand
   end
 
   def cobble
